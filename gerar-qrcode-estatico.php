@@ -7,7 +7,7 @@ use \App\Pix\Payload;
 use Mpdf\QrCode\QrCode;
 use Mpdf\QrCode\Output;
 
-$obPayload = (new Payload)->setPixKey('13904190962')
+$obPayload = (new Payload)->setPixKey('1390419')
             ->setDescription('Pagamento do pedido 2')
             ->setMerchantName('Leonardo andre ferreira')
             ->setMerchantCity('Joinville SC')
